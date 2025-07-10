@@ -1,0 +1,23 @@
+<header class="header">
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="/">Raunak Kumar</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="/" class="nav-link <%= page === 'home' ? 'active' : '' %>">Home</a>
+                <a href="/about" class="nav-link <%= page === 'about' ? 'active' : '' %>">About</a>
+                <a href="/skills" class="nav-link <%= page === 'skills' ? 'active' : '' %>">Skills</a>
+                <a href="/projects" class="nav-link <%= page === 'projects' ? 'active' : '' %>">Projects</a>
+                <a href="/experience" class="nav-link <%= page === 'experience' ? 'active' : '' %>">Experience</a>
+                <a href="/certificates" class="nav-link <%= page === 'certificates' ? 'active' : '' %>">Certificates</a>
+                <a href="/contact" class="nav-link <%= page === 'contact' ? 'active' : '' %>">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+</header>
