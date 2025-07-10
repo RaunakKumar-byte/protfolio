@@ -29,7 +29,7 @@ app.use((req, res, next) => {
 
 // MongoDB connection
 mongoose
-  .connect(process.env.MONGO_URI || "mongodb://localhost:27017/portfolio", {
+  .connect(process.env.MONGO_URI , {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
